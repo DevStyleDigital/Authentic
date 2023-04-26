@@ -12,7 +12,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <title>Instituto Humberto de Campos</title>
+        <title>Authentic</title>
       </Head>
       <LayoutProvider>
         <Component {...pageProps} />
