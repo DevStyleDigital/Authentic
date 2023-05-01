@@ -32,6 +32,7 @@ export const ContentVideoStyle = styled.section`
     .content {
       display: flex;
       flex-direction: column;
+      height: 100%;
     }
   }
   @media (max-width: 380px) {
