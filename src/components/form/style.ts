@@ -7,11 +7,14 @@ export const FormStyle = styled.form`
     flex-direction: column;
     justify-content: center;
     color: white;
-    padding: 4rem;
     gap: 1.5rem;
     h1{
         font-size: 1.4rem;
         letter-spacing: 2px;
+        @media (max-width: 768px){
+            font-size: .9rem;
+            white-space: nowrap;
+        }
     }
     input{
         padding: 1rem 1.5rem;
@@ -23,6 +26,13 @@ export const FormStyle = styled.form`
             color: white;
             font-size: .9rem;
             letter-spacing: 1px;
+            @media (max-width: 768px){
+                font-size: .7rem;
+            }
+        }
+        @media (max-width: 768px){
+            padding: .7rem 1.2rem;
+            width: 90%;
         }
     }
     button{
@@ -34,6 +44,10 @@ export const FormStyle = styled.form`
         transition: all .5s;
         :hover{
             transform: scale(1.1) translateX(5px);
+        }
+        @media (max-width: 768px){
+            padding: .6rem 1rem;
+            font-size: .9rem;
         }
     }
 `

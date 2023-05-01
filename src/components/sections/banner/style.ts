@@ -5,10 +5,13 @@ export const BannerStyle = styled.div`
     height: 85vh;
     padding-top: 100px;
     background-color: black;
-    position: relative;
+    position: relative;  
     img{
         width: 100%;
         height: 100%;
+    }
+    .banner_mobile{
+        display: none;
     }
     .button{
         position: absolute;
@@ -34,6 +37,24 @@ export const BannerStyle = styled.div`
                 background: linear-gradient(360deg, #F49A56 -13.21%, #6E311E 256.6%);
                 color: black;
             }
+        }
+        @media (max-width: 1444px) {
+            padding-left: 5rem;
+        }
+        @media (max-width: 1024px) {
+            padding-left: 3.5rem;
+        }
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+    @media (max-width: 768px) {
+        height: 75vh;
+        .banner_mobile{
+            display: block;
+        }
+        .banner{
+            display: none;
         }
     }
 `;

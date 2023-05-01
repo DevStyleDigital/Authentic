@@ -16,6 +16,23 @@ export const ContentVideoStyle = styled.section`
             width: 100%;
             height: 100%;
             background-color: gray;
+            iframe{
+                width: 100%;
+                height: 100%;
+            }
         }
+        .form{
+            padding:3rem;
+        }
+    }
+    @media (max-width: 768px){
+        padding: 2rem 1rem;
+        .content{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    @media (max-width: 380px){
+        height: 110vh;
     }
 `

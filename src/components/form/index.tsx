@@ -3,7 +3,7 @@ import { FormStyle } from "./style"
 import { InputMask } from 'primereact/inputmask';
 
 const Form = () => {
-    const [value, setValue] = useState('');
+    const [value, setValue] = useState(undefined);
     function sendForm(ev: any) {
         ev.preventDefault()
     }

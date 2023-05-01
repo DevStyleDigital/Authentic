@@ -12,7 +12,7 @@ export const sharedTheme: iSharedThemeOptions = {
 
   fonts: {
     primary: '"Montserrat", sans-serif',
-    secondary: '"Noto Serif", serif',
+    secondary: '"Montserrat", sans-serif',
   },
   mediaQueries: {
     maxMobile: `${BREAKPOINTS.$MAX_MOBILE}px`,

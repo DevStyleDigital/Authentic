@@ -2,6 +2,9 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 
 import { LayoutProvider } from '@contexts/Layout';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
