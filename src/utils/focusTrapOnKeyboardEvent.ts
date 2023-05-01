@@ -1,6 +1,4 @@
-export function focusTrapOnKeyboardEvent(
-  event: React.KeyboardEvent<HTMLElement>,
-) {
+export function focusTrapOnKeyboardEvent(event: React.KeyboardEvent<HTMLElement>) {
   if (event.key !== 'Tab') return false;
 
   const focusableModalElements =

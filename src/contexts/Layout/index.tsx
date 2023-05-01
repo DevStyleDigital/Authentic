@@ -6,9 +6,7 @@ import { defaultTheme } from '@globalStyles/theme';
 
 import type { iLayoutContext } from './iLayoutContext';
 
-export const LayoutContext = createContext<iLayoutContext>(
-  {} as iLayoutContext,
-);
+export const LayoutContext = createContext<iLayoutContext>({} as iLayoutContext);
 
 interface LayoutProviderProps {
   children: React.ReactNode;
@@ -33,9 +31,7 @@ export const LayoutProvider = ({ children }: LayoutProviderProps) => {
       <GlobalStyles.FontsCSS />
       <GlobalStyles.RootCSS overflow={hamburguer} />
 
-      <LayoutContext.Provider value={contextValue}>
-        {children}
-      </LayoutContext.Provider>
+      <LayoutContext.Provider value={contextValue}>{children}</LayoutContext.Provider>
     </ThemeProvider>
   );
 };

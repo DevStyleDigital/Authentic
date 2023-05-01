@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { TourStyle } from './style';
 
 const Tour = () => {
@@ -9,9 +10,9 @@ const Tour = () => {
           <iframe
             style={{ width: '100%', height: '100%' }}
             src="https://construtoraagvelasco.com.br/tour-authentic/"
-          ></iframe>
+          />
         </div>
-        <a href="#visite">Agende uma visita</a>
+        <Link href="#visite">Agende uma visita</Link>
       </div>
     </TourStyle>
   );

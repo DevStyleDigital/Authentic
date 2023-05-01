@@ -1,6 +1,7 @@
 import { DiferenciaisStyle } from './style';
 import DiferenciaisImg from '../../../assets/img/fundo_diferenciais.jpg';
 import Image from 'next/image';
+import Link from 'next/link';
 const Diferenciais = () => {
   return (
     <DiferenciaisStyle id="lazer">
@@ -15,15 +16,10 @@ const Diferenciais = () => {
             </span>
             <br /> de lazer <br /> e comodidade{' '}
           </h1>
-          <span className="line"></span>
-          <a href="#visite">Fale com um Corretor</a>
+          <span className="line" />
+          <Link href="#visite">Fale com um Corretor</Link>
         </div>
-        <Image
-          src={DiferenciaisImg}
-          alt="diferenciais"
-          width={560}
-          height={700}
-        />
+        <Image src={DiferenciaisImg} alt="diferenciais" width={560} height={700} />
       </div>
       <div className="secondCol">
         <div className="diferenciais1">

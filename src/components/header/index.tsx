@@ -3,6 +3,7 @@ import { HeaderStyle } from './style';
 import { LinksHeader } from '@utils/linksHeader';
 import Hamburguer from '@components/hamburguer';
 import { useLayoutContext } from '@contexts/Layout/useLayoutContext';
+import Link from 'next/link';
 
 const Header = () => {
   const { hamburguer, setHamburguer } = useLayoutContext();
@@ -12,7 +13,7 @@ const Header = () => {
       <ul className="list">
         {LinksHeader.map((item) => (
           <li key={item.id}>
-            <a href={item.link}>{item.label}</a>
+            <Link href={item.link}>{item.label}</Link>
           </li>
         ))}
       </ul>

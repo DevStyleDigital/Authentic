@@ -67,11 +67,7 @@ export const EmpreendimentoStyle = styled.section`
           transition: all 0.3s ease-in-out;
           :hover {
             border: 1px solid black;
-            background: linear-gradient(
-              360deg,
-              #f49a56 -13.21%,
-              #6e311e 256.6%
-            );
+            background: linear-gradient(360deg, #f49a56 -13.21%, #6e311e 256.6%);
             color: black;
           }
           @media (max-width: 768px) {
@@ -142,11 +138,7 @@ export const EmpreendimentoStyle = styled.section`
           display: none;
           :hover {
             border: 1px solid black;
-            background: linear-gradient(
-              360deg,
-              #f49a56 -13.21%,
-              #6e311e 256.6%
-            );
+            background: linear-gradient(360deg, #f49a56 -13.21%, #6e311e 256.6%);
             color: black;
           }
           @media (max-width: 768px) {
