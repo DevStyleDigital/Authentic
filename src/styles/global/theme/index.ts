@@ -4,8 +4,5 @@ import { sharedTheme } from './shared';
 export const defaultTheme: iTheme = {
   name: 'default',
 
-  colors: {
-    
-  },
   ...sharedTheme,
 };

@@ -1,4 +1,4 @@
-import { createContext, useEffect, useMemo, useState } from 'react'
+import { createContext, useMemo, useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 
 import { GlobalStyles } from '@globalStyles';
@@ -21,8 +21,8 @@ export const LayoutProvider = ({ children }: LayoutProviderProps) => {
     () => ({
       setHamburguer,
       hamburguer,
-      whatsapp, 
-      setWhatsapp
+      whatsapp,
+      setWhatsapp,
     }),
     [hamburguer, whatsapp],
   );

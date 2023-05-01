@@ -1,11 +1,7 @@
-import { PlantasStyle } from "./style"
+import { PlantasStyle } from './style';
 
 const Plantas = () => {
-    return (
-        <PlantasStyle id="plantas">
-            
-        </PlantasStyle>
-    )
-}
+  return <PlantasStyle id="plantas" />;
+};
 
-export default Plantas
+export default Plantas;

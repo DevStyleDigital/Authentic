@@ -19,8 +19,4 @@ export interface iSharedThemeOptions {
 
 export interface iTheme extends iSharedThemeOptions {
   name: 'default';
-
-  colors: {
-      
-  };
 }

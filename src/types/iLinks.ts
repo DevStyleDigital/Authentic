@@ -1,5 +1,5 @@
 export interface iLinks {
-    id: number,
-    label: string,
-    link: string
+  id: number;
+  label: string;
+  link: string;
 }
