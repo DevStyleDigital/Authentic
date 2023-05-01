@@ -145,6 +145,9 @@ export const DiferenciaisStyle = styled.section`
       gap: 1.5rem;
     }
   }
+  @media (max-width: 1700px) {
+    min-height: 70vh;
+  }
   @media (max-width: 768px) {
     flex-direction: column;
     min-height: 60vh;
