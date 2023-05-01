@@ -2,12 +2,13 @@ import styled from 'styled-components';
 
 export const DiferenciaisStyle = styled.section`
   width: 100%;
-  height: 60vh;
+  height: auto;
+  min-height: 60vh;
   display: flex;
   .firstCol {
     width: auto;
     min-width: 30%;
-    height: 100%;
+    height: auto;
     position: relative;
     .content {
       position: absolute;
@@ -91,7 +92,7 @@ export const DiferenciaisStyle = styled.section`
     }
     img {
       width: 100%;
-      height: 500px;
+      height: 100%;
       object-fit: cover;
     }
     @media (max-width: 768px) {
@@ -101,7 +102,7 @@ export const DiferenciaisStyle = styled.section`
   }
   .secondCol {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     justify-content: space-evenly;
     background: linear-gradient(269.26deg, #f39a55 12.4%, #6e311e 122.69%);
