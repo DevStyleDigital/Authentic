@@ -7,7 +7,8 @@ export const ContentVideoStyle = styled.section`
   padding: 6rem 7rem;
   .content {
     width: 100%;
-    height: 100%;
+    height: fit-content;
+    min-height: 100%;
     display: grid;
     background-color: #000000;
     grid-template-columns: 60% 40%;
