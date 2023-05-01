@@ -110,7 +110,7 @@ export const EmpreendimentoStyle = styled.section`
           font-size: 2.25rem;
           font-weight: bold;
           margin-bottom: 0;
-          line-height: 1.5rem;
+          line-height: 2rem;
           letter-spacing: 1px;
         }
         img {

@@ -38,7 +38,7 @@ export const BannerStyle = styled.div`
         color: black;
       }
     }
-    @media (max-width: 1444px) {
+    @media (max-width: 1700px) {
       padding-left: 5rem;
     }
     @media (max-width: 1024px) {
