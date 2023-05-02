@@ -6,16 +6,25 @@ interface Props {
 
 const ColorsCSS = createGlobalStyle`
   :root {
-    --swiper-navigation-sides-offset: -250px;
-    --swiper-navigation-color: black;
+    --swiper-carrossel-navigation-sides-offset: -250px;
+    --swiper-carrossel-navigation-color: black;
     @media (max-width: 768px) {
-      --swiper-navigation-sides-offset: -35px !important;
+      --swiper-carrossel-navigation-sides-offset: -35px !important;
     }
     @media (max-width: 1024px) {
-      --swiper-navigation-sides-offset: -70px;
+      --swiper-carrossel-navigation-sides-offset: -70px;
     }
     @media (max-width: 1440px) {
-      --swiper-navigation-sides-offset: -150px;
+      --swiper-carrossel-navigation-sides-offset: -150px;
+    }
+
+    --swiper-plantas-navigation-sides-offset: 120px;
+    --swiper-plantas-navigation-color: black;
+    @media (max-width: 600px) {
+      --swiper-plantas-navigation-sides-offset: 0px !important;
+    }
+    @media (max-width: 1440px) {
+      --swiper-plantas-navigation-sides-offset:40px;
     }
   }
 `;

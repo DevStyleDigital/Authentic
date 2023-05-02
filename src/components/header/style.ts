@@ -31,8 +31,9 @@ export const HeaderStyle = styled.header`
   .menu {
     display: none;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     padding: 0 2rem;
+    height: 75px;
     .list {
       display: none;
     }

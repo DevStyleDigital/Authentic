@@ -35,6 +35,14 @@ export const CarrosselStyle = styled.section`
           font-size: 30px;
         }
       }
+      .swiper-button-prev,
+      .swiper-rtl .swiper-button-next {
+        left: var(--swiper-carrossel-navigation-sides-offset, 10px);
+      }
+      .swiper-button-next,
+      .swiper-rtl .swiper-button-prev {
+        right: var(--swiper-carrossel-navigation-sides-offset, 10px);
+      }
       @media (max-width: 1440px) {
         width: 60%;
       }

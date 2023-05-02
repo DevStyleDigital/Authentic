@@ -11,9 +11,9 @@ const About = () => {
           <LogoEscrito />
           <h4>
             Com uma proposta exclusiva de lifestyle,{' '}
-            <strong>15 anos de atuação e 1400 lares entregues,</strong> a
-            Construtora Ag Velasco investe em soluções que promovam saúde,
-            conforto e bem-estar, apostando em entregas diferenciadas.
+            <strong>15 anos de atuação e 1400 lares entregues,</strong> a Construtora Ag
+            Velasco investe em soluções que promovam saúde, conforto e bem-estar,
+            apostando em entregas diferenciadas.
           </h4>
         </div>
         <div className="respeito">
