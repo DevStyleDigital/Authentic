@@ -22,7 +22,7 @@ export const CarrosselStyle = styled.section`
     align-items: center;
     .container {
       width: 50%;
-      height: 80%;
+      height: 100%;
       position: relative;
       .swiper-button-next,
       .swiper-button-prev {
@@ -59,14 +59,32 @@ export const CarrosselStyle = styled.section`
         .swiper-wrapper {
           width: 100%;
           height: 100%;
-
           .swiper-slide {
             width: 100%;
             height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
             img {
               width: 100%;
-              height: 100%;
+              height: 80%;
               object-fit: cover;
+            }
+            h1 {
+              position: absolute;
+              color: black;
+              z-index: 9999;
+              bottom: 1.5rem;
+              @media (max-width: 768px) {
+                bottom: .5rem;
+                font-size: 1.2rem;
+              }
+              @media (max-width: 600px) {
+                bottom: .5rem;
+                font-size: .8rem;
+              }
             }
           }
         }
