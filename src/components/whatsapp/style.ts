@@ -23,22 +23,27 @@ export const WhatsappStyle = styled.div`
   top: 300px;
   z-index: 9;
   right: -500px;
-  padding: 1rem 0.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
   transition: all 0.5s;
-  span {
-    text-transform: uppercase;
-    color: white;
-    font-size: 11px;
-    text-align: center;
-    font-weight: bold;
-    line-height: 15px;
-  }
-  svg {
-    transform: scale(1.2);
+  a{
+    padding: 1rem 0.5rem;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    span {
+      text-transform: uppercase;
+      color: white;
+      font-size: 11px;
+      text-align: center;
+      font-weight: bold;
+      line-height: 15px;
+    }
+    svg {
+      transform: scale(1.2);
+    }
   }
   @media (min-width: 768px) {
     right: 0px !important;
