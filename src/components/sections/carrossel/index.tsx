@@ -189,7 +189,7 @@ const Carrossel = () => {
                 width={1600}
                 height={640}
               />
-              <h1>Salão de gestas</h1>
+              <h1>Salão de Festas</h1>
             </SwiperSlide>
             <SwiperSlide>
               <Image
