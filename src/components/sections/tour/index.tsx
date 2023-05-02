@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { TourStyle } from './style';
 
 const Tour = () => {
@@ -12,7 +11,7 @@ const Tour = () => {
             src="https://construtoraagvelasco.com.br/tour-authentic/"
           />
         </div>
-        <Link href="#visite">Agende uma visita</Link>
+        <a href="#visite">Agende uma visita</a>
       </div>
     </TourStyle>
   );

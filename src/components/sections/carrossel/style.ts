@@ -83,7 +83,7 @@ export const CarrosselStyle = styled.section`
               }
               @media (max-width: 600px) {
                 bottom: .4rem;
-                font-size: .8rem;
+                font-size: 1rem;
               }
             }
           }

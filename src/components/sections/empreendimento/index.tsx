@@ -2,7 +2,7 @@ import { EmpreendimentoStyle } from './style';
 import ImgBanner from '../../../assets/img/empreendimento.jpg';
 import RicardoImg from '../../../assets/img/ricardo_bandeira.jpg';
 import Image from 'next/image';
-import Link from 'next/link';
+
 const Empreendimento = () => {
   return (
     <EmpreendimentoStyle id="empreeendimento">
@@ -29,7 +29,7 @@ const Empreendimento = () => {
               entorno oferece. Entre os principais, toda autenticidade que Sorocaba pode
               fornecer.{' '}
             </h4>
-            <Link href="#visite">Fale com um Corretor</Link>
+            <a href="#visite">Fale com um Corretor</a>
           </div>
           <div className="secondCol">
             <span>
@@ -38,7 +38,7 @@ const Empreendimento = () => {
             </span>
             <h1>Ricardo Bandeira</h1>
             <Image src={RicardoImg} width={345} height={240} alt="Ricardo Bandeira" />
-            <Link href="#visite">Fale com um Corretor</Link>
+            <a href="#visite">Fale com um Corretor</a>
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { BannerStyle } from './style';
 import BannerImg from '../../../assets/img/banner.png';
 import BannerMobileImg from '../../../assets/img/Banner_Mobile.png';
-import Link from 'next/link';
+
 const Banner = () => {
   return (
     <BannerStyle>
@@ -15,7 +15,7 @@ const Banner = () => {
         height={788}
       />
       <div className="button">
-        <Link href="/">Fale com um Corretor</Link>
+        <a href="#visite">Fale com um Corretor</a>
       </div>
     </BannerStyle>
   );

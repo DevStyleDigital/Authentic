@@ -4,7 +4,6 @@ import { Container, Fade } from './style';
 
 import { useLayoutContext } from '@contexts/Layout/useLayoutContext';
 import { LinksHeader } from '@utils/linksHeader';
-import Link from 'next/link';
 
 interface props {
   toggle: boolean;
@@ -49,7 +48,7 @@ const Navibar = ({ toggle }: props) => {
         <ul>
           {LinksHeader.map((item) => (
             <li key={item.id}>
-              <Link href={item.link}>{item.label}</Link>
+              <a href={item.link}>{item.label}</a>
             </li>
           ))}
         </ul>

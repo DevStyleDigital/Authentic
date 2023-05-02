@@ -1,6 +1,5 @@
 import LogoEscrito from 'assets/svg/logo-escrito';
 import { FooterStyle } from './style';
-import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -16,7 +15,7 @@ const Footer = () => {
       </span>
       <div className="logo">
         <LogoEscrito />
-        <Link href="https://coreag.com.br/">Intelligence By Core.Ag</Link>
+        <a href="https://coreag.com.br/">Intelligence By Core.Ag</a>
       </div>
     </FooterStyle>
   );
