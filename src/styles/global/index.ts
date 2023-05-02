@@ -7,7 +7,7 @@ interface Props {
 const ColorsCSS = createGlobalStyle`
   :root {
     --swiper-carrossel-navigation-sides-offset: -250px;
-    --swiper-carrossel-navigation-color: black;
+    --swiper-navigation-color: black;
     @media (max-width: 768px) {
       --swiper-carrossel-navigation-sides-offset: -35px !important;
     }
@@ -19,7 +19,6 @@ const ColorsCSS = createGlobalStyle`
     }
 
     --swiper-plantas-navigation-sides-offset: 120px;
-    --swiper-plantas-navigation-color: black;
     @media (max-width: 600px) {
       --swiper-plantas-navigation-sides-offset: 0px !important;
     }
