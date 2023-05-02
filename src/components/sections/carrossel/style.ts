@@ -76,7 +76,7 @@ export const CarrosselStyle = styled.section`
               position: absolute;
               color: black;
               z-index: 9999;
-              bottom: 1.5rem;
+              bottom: 1rem;
               @media (max-width: 768px) {
                 bottom: .5rem;
                 font-size: 1.2rem;
