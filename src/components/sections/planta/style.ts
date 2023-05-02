@@ -222,12 +222,21 @@ export const PlantasStyle = styled.section`
           @media (max-width: 600px) {
             font-size: 0.8rem;
           }
+          svg{
+            width: 2rem;
+          }
         }
         @media (max-width: 1500px) {
           grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
         }
         @media (max-width: 1200px) {
           grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        }
+        @media (max-width: 1000px) {
+          width: 70%;
+        }
+        @media (max-width: 600px) {
+          width: 90%;
         }
       }
       @media (max-width: 600px) {
