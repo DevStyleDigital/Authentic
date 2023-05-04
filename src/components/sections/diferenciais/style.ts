@@ -11,9 +11,11 @@ export const DiferenciaisStyle = styled.section`
     height: auto;
     position: relative;
     .content {
-      position: absolute;
+      /* position: absolute;
       top: 0;
-      left: 0;
+      left: 0; */
+      position: relative;
+      z-index: 9;
       width: 100%;
       height: 100%;
       justify-content: center;
@@ -26,7 +28,7 @@ export const DiferenciaisStyle = styled.section`
       span {
         color: rgba(255, 255, 255, 0.9);
         line-height: 28px;
-        font-size: 26px;
+        font-size: 22px;
         @media (max-width: 1440px) {
           font-size: 20px;
         }
@@ -84,20 +86,28 @@ export const DiferenciaisStyle = styled.section`
           font-size: 0.7rem;
         }
       }
-      @media (max-width: 768px) {
+      @media (max-width: 1000px) {
         text-align: center;
         align-items: center;
-        padding: 0;
+        padding: 2rem;
+        height: auto;
       }
     }
     img {
       width: 100%;
       height: 100%;
       object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 1200px) {
+      min-width: 40%;
+    }
+    @media (max-width: 1000px) {
       min-width: 100%;
-      height: 100%;
+      height: fit-content;
     }
   }
   .secondCol {
@@ -119,7 +129,7 @@ export const DiferenciaisStyle = styled.section`
           font-size: 1rem;
         }
       }
-      @media (max-width: 768px) {
+      @media (max-width: 1000px) {
         gap: 0.5rem;
       }
     }
@@ -136,11 +146,11 @@ export const DiferenciaisStyle = styled.section`
           font-size: 1rem;
         }
       }
-      @media (max-width: 768px) {
+      @media (max-width: 1000px) {
         gap: 0.5rem;
       }
     }
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
       padding: 2rem 1rem 2rem 3rem;
       gap: 1.5rem;
     }
@@ -148,7 +158,7 @@ export const DiferenciaisStyle = styled.section`
   @media (max-width: 1700px) {
     min-height: 70vh;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     flex-direction: column;
     min-height: 60vh;
     height: auto;

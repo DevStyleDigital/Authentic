@@ -17,6 +17,11 @@ const Diferenciais = () => {
             <br /> de lazer <br /> e comodidade{' '}
           </h1>
           <span className="line" />
+          <span>
+            Verdadeiramente <br /> 
+            o maior lazer <br />
+            do Sta.Terezina
+          </span>
           <a href="#visite">Fale com um Corretor</a>
         </div>
         <Image src={DiferenciaisImg} alt="diferenciais" width={560} height={700} />

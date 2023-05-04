@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { BannerStyle } from './style';
 import BannerImg from '../../../assets/img/banner.png';
 import BannerMobileImg from '../../../assets/img/Banner_Mobile.png';
+import Form from '@components/form';
 
 const Banner = () => {
   return (
@@ -14,8 +15,10 @@ const Banner = () => {
         width={1920}
         height={788}
       />
-      <div className="button">
-        <a href="#visite">Fale com um Corretor</a>
+      <div className="formulario">
+        <div className="container">
+          <Form />
+        </div>
       </div>
     </BannerStyle>
   );

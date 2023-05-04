@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const BannerStyle = styled.div`
   width: 100%;
-  height: 85vh;
+  height: 88vh;
   padding-top: 100px;
   background-color: black;
   position: relative;
@@ -13,43 +13,44 @@ export const BannerStyle = styled.div`
   .banner_mobile {
     display: none;
   }
-  .button {
+  .formulario {
     position: absolute;
-    left: 0;
-    bottom: 0;
     width: 100%;
-    height: 30%;
-    background-color: transparent;
-    padding-left: 6.5rem;
-    a {
-      padding: 1rem 4rem;
-      border: 1px solid white;
-      text-decoration: none;
-      color: white;
-      font-size: 1rem;
-      font-weight: bolder;
-      text-transform: uppercase;
-      background: transparent;
-      letter-spacing: 2px;
-      transition: all 0.3s ease-in-out;
-      :hover {
-        border: 1px solid black;
-        background: linear-gradient(360deg, #f49a56 -13.21%, #6e311e 256.6%);
-        color: black;
+    height: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    z-index: 7;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 4rem;
+    .container {
+      border-radius: 10px;
+      width: 30%;
+      height: 40%;
+      background: rgba(0,0,0,.7);
+      padding: 2rem;
+      @media (max-width: 1600px) {
+        width: 40%;
+      }
+      @media (max-width: 1300px) {
+        width: 50%;
       }
     }
-    @media (max-width: 1700px) {
-      padding-left: 5rem;
+    @media (max-width: 1600px) {
+      padding: 0 2rem;
     }
-    @media (max-width: 1024px) {
-      padding-left: 3.5rem;
-    }
-    @media (max-width: 768px) {
-      display: none;
+    @media (max-width: 1300px) {
+      padding: 0 5rem;
     }
   }
+
   @media (max-width: 768px) {
-    height: 75vh;
+    height: 90vh;
+    .formulario{
+      display: none;
+    }
     .banner_mobile {
       display: block;
     }
@@ -60,4 +61,5 @@ export const BannerStyle = styled.div`
   @media (max-width: 900px) {
     padding-top: 75px;
   }
+  
 `;
