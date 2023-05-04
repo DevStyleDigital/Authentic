@@ -21,7 +21,7 @@ export const FormStyle = styled.form`
     background-color: transparent;
     border: 1px solid white;
     color: white;
-    width: 80%;
+    width: 100%;
     ::placeholder {
       color: white;
       font-size: 0.9rem;

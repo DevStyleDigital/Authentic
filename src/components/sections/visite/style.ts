@@ -16,7 +16,10 @@ export const VisiteStyle = styled.section`
     align-items: center;
     justify-content: space-between;
     .form {
-      width: 50%;
+      width: 40%;
+      @media (max-width: 1465px) {
+        width: 50%;
+      }
     }
     .endereco {
       display: flex;
