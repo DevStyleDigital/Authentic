@@ -54,6 +54,9 @@ export const BannerStyle = styled.div`
       display: none;
     }
   }
+  @media (max-width: 1550px){
+    height: 98vh;
+  }
   @media (max-width: 900px) {
     padding-top: 75px;
   }
