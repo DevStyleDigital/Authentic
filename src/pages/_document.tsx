@@ -38,7 +38,7 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700&display=swap"
             rel="stylesheet"
           />
-          <link rel="icon" type="image/x-icon" href="./img/logo.png" />
+          <link rel="icon" type="image/x-icon" href="/logo.png" />
 
           {/* METAS */}
           <meta charSet="utf-8" />
