@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const LocalizacaoStyle = styled.section`
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   img {
     width: 100%;
     height: 100%;
