@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const BannerStyle = styled.div`
   width: 100%;
-  height: 88vh;
+  height: 95vh;
   padding-top: 100px;
   background-color: black;
   position: relative;
