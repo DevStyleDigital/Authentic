@@ -8,7 +8,7 @@ const Empreendimento = () => {
     <EmpreendimentoStyle id="empreeendimento">
       <div className="content">
         <div className="banner">
-          <Image src={ImgBanner} width={1000} height={1000} alt="empreendimento" />
+          <Image src={ImgBanner} width={914} height={573} alt="empreendimento" />
         </div>
         <div className="apresent">
           <div className="firstCol">
