@@ -8,7 +8,7 @@ export const ArrowStyle = styled.button`
   position: fixed;
   top: 300px;
   right: 0;
-  z-index: 99999;
+  z-index: 99;
   @media (min-width: 768px) {
     display: none;
   }
@@ -21,7 +21,7 @@ export const WhatsappStyle = styled.div`
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
   position: fixed;
   top: 300px;
-  z-index: 9;
+  z-index: 999;
   right: -500px;
   transition: all 0.5s;
   a{
