@@ -42,8 +42,14 @@ export const BannerStyle = styled.div`
     }
   }
 
+  @media (max-width: 1550px){
+    height: 98vh;
+  }
+  @media (max-width: 900px) {
+    padding-top: 75px;
+  }
   @media (max-width: 768px) {
-    height: 90vh;
+    height: 100vh;
     .formulario{
       display: none;
     }
@@ -54,11 +60,8 @@ export const BannerStyle = styled.div`
       display: none;
     }
   }
-  @media (max-width: 1550px){
-    height: 98vh;
-  }
-  @media (max-width: 900px) {
-    padding-top: 75px;
+  @media (max-width: 600px) {
+    height: 75vh;
   }
   
 `;
