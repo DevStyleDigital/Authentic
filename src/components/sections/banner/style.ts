@@ -31,9 +31,10 @@ export const BannerStyle = styled.div`
       height: auto;
       min-height: 40%;
       background: rgba(0,0,0,.7);
-      padding: 2rem;
+      padding: 2rem 2rem 2rem 2rem;
       @media (max-width: 1600px) {
         width: 35%;
+        padding: 2rem 2rem 1rem 2rem;
       }
       @media (max-width: 1300px) {
         width: 40%;
