@@ -47,12 +47,14 @@ export const CarrosselStyle = styled.section`
       }
       .swiper-pagination{
         bottom: 1.5rem !important;
+        z-index: 65;
       }
       .swiper-pagination  .swiper-pagination-bullet{
         background: rgba(0,0,0,.6);
         opacity: 1;
         width: 8px;
         height: 8px;
+      
       }
 
       .swiper-pagination  .swiper-pagination-bullet-active{

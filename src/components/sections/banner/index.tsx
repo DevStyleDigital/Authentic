@@ -12,8 +12,8 @@ const Banner = () => {
         alt="banner"
         className="banner_mobile"
         src={BannerMobileImg}
-        width={1920}
-        height={788}
+        width={600}
+        height={400}
       />
       <div className="formulario">
         <div className="container">

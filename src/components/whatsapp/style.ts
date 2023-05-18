@@ -8,7 +8,7 @@ export const ArrowStyle = styled.button`
   position: fixed;
   top: 300px;
   right: 0;
-  z-index: 9;
+  z-index: 99999;
   @media (min-width: 768px) {
     display: none;
   }
