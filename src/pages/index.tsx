@@ -14,7 +14,6 @@ import WhatsappButton from '@components/whatsapp';
 import { useLayoutContext } from '@contexts/Layout/useLayoutContext';
 import SizeMobile from '@components/sections/sizeMobile';
 import RoofTop from '@components/sections/rooftop';
-import Grid from '@components/sections/grid';
 
 const Home = () => {
   const { setWhatsapp } = useLayoutContext();
@@ -32,7 +31,6 @@ const Home = () => {
         <Diferenciais />
         <RoofTop />
         <Carrossel />
-        <Grid />
         <Tour />
         <About />
         <Visite />

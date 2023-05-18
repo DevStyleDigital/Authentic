@@ -9,6 +9,78 @@ const Carrossel = () => {
       <div className="content">
         <div className="container">
           <Swiper navigation={true}  pagination={true} modules={[Pagination, Navigation]} className="mySwiper">
+          <SwiperSlide>
+              <Image
+                alt="banner-carrosel"
+                src="/carrosel/Rooftop.webp"
+                width={1920}
+                height={720}
+              />
+              <h1>RoofTop</h1>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                alt="banner-carrosel"
+                src="/carrosel/Rooftop2.webp"
+                width={1920}
+                height={720}
+              />
+              <h1>RoofTop</h1>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                alt="banner-carrosel"
+                src="/carrosel/GYM.webp"
+                width={1920}
+                height={720}
+              />
+              <h1>Gym</h1>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                alt="banner-carrosel"
+                src="/carrosel/Pilates.webp"
+                width={1920}
+                height={720}
+              />
+              <h1>Pilates</h1>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                alt="banner-carrosel"
+                src="/carrosel/Piscina.webp"
+                width={1920}
+                height={720}
+              />
+              <h1>Piscinas</h1>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                alt="banner-carrosel"
+                src="/carrosel/Sauna.webp"
+                width={1920}
+                height={720}
+              />
+              <h1>Sauna</h1>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                alt="banner-carrosel"
+                src="/carrosel/Massagem.webp"
+                width={1920}
+                height={720}
+              />
+              <h1>Massagem</h1>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                alt="banner-carrosel"
+                src="/carrosel/Lounge-gourmet.webp"
+                width={1920}
+                height={720}
+              />
+              <h1>Lounge Gourmet</h1>
+            </SwiperSlide>
             <SwiperSlide>
               <Image
                 alt="banner-carrosel"
@@ -84,33 +156,6 @@ const Carrossel = () => {
             <SwiperSlide>
               <Image
                 alt="banner-carrosel"
-                src="/carrosel/GYM.webp"
-                width={1920}
-                height={720}
-              />
-              <h1>Gym</h1>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                alt="banner-carrosel"
-                src="/carrosel/Lounge-gourmet.webp"
-                width={1920}
-                height={720}
-              />
-              <h1>Lounge Gourmet</h1>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                alt="banner-carrosel"
-                src="/carrosel/Massagem.webp"
-                width={1920}
-                height={720}
-              />
-              <h1>Massagem</h1>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                alt="banner-carrosel"
                 src="/carrosel/Mini-mercado.webp"
                 width={1920}
                 height={720}
@@ -125,24 +170,6 @@ const Carrossel = () => {
                 height={720}
               />
               <h1>Pet Garden</h1>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                alt="banner-carrosel"
-                src="/carrosel/Pilates.webp"
-                width={1920}
-                height={720}
-              />
-              <h1>Pilates</h1>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                alt="banner-carrosel"
-                src="/carrosel/Piscina.webp"
-                width={1920}
-                height={720}
-              />
-              <h1>Piscinas</h1>
             </SwiperSlide>
             <SwiperSlide>
               <Image
@@ -162,24 +189,7 @@ const Carrossel = () => {
               />
               <h1>Quadra Polisesportiva</h1>
             </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                alt="banner-carrosel"
-                src="/carrosel/Rooftop.webp"
-                width={1920}
-                height={720}
-              />
-              <h1>RoofTop</h1>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                alt="banner-carrosel"
-                src="/carrosel/Rooftop2.webp"
-                width={1920}
-                height={720}
-              />
-              <h1>RoofTop</h1>
-            </SwiperSlide>
+ 
             <SwiperSlide>
               <Image
                 alt="banner-carrosel"
@@ -188,15 +198,6 @@ const Carrossel = () => {
                 height={720}
               />
               <h1>Salão de Festas</h1>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                alt="banner-carrosel"
-                src="/carrosel/Sauna.webp"
-                width={1920}
-                height={720}
-              />
-              <h1>Sauna</h1>
             </SwiperSlide>
             <SwiperSlide>
               <Image
