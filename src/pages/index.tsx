@@ -12,6 +12,9 @@ import Visite from '@components/sections/visite';
 import Footer from '@components/footer';
 import WhatsappButton from '@components/whatsapp';
 import { useLayoutContext } from '@contexts/Layout/useLayoutContext';
+import SizeMobile from '@components/sections/sizeMobile';
+import RoofTop from '@components/sections/rooftop';
+import Grid from '@components/sections/grid';
 
 const Home = () => {
   const { setWhatsapp } = useLayoutContext();
@@ -21,12 +24,15 @@ const Home = () => {
       <div onClick={() => setWhatsapp(false)}>
         <Header />
         <Banner />
+        <SizeMobile />
         <ContentVideo />
         <Empreendimento />
         <Localizacao />
         <Plantas />
         <Diferenciais />
+        <RoofTop />
         <Carrossel />
+        <Grid />
         <Tour />
         <About />
         <Visite />

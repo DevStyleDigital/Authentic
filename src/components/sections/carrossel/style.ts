@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const CarrosselStyle = styled.section`
   width: 100%;
-  height: 70vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +21,7 @@ export const CarrosselStyle = styled.section`
     justify-content: center;
     align-items: center;
     .container {
-      width: 50%;
+      width: 100%;
       height: 100%;
       position: relative;
       .swiper-button-next,
@@ -38,20 +38,27 @@ export const CarrosselStyle = styled.section`
       .swiper-button-prev,
       .swiper-rtl .swiper-button-next {
         left: var(--swiper-carrossel-navigation-sides-offset, 10px);
+        color: white !important;
       }
       .swiper-button-next,
       .swiper-rtl .swiper-button-prev {
         right: var(--swiper-carrossel-navigation-sides-offset, 10px);
+        color: white !important;
       }
-      @media (max-width: 1440px) {
-        width: 60%;
+      .swiper-pagination{
+        bottom: 1.5rem !important;
       }
-      @media (max-width: 1024px) {
-        width: 70%;
+      .swiper-pagination  .swiper-pagination-bullet{
+        background: rgba(0,0,0,.6);
+        opacity: 1;
+        width: 8px;
+        height: 8px;
       }
-      @media (max-width: 768px) {
-        width: 80%;
+
+      .swiper-pagination  .swiper-pagination-bullet-active{
+        background-color: white;
       }
+
       .mySwiper {
         width: 100%;
         height: 100%;
@@ -69,21 +76,24 @@ export const CarrosselStyle = styled.section`
             position: relative;
             img {
               width: 100%;
-              height: 80%;
+              height: 100%;
               object-fit: cover;
             }
             h1 {
               position: absolute;
-              color: black;
+              filter: drop-shadow(0px 2px 4px #000000);
+              left: 5rem;
+              color: white;
               z-index: 9999;
-              bottom: 1rem;
+              bottom: 5rem;
+              font-size: 2rem;
               @media (max-width: 768px) {
-                bottom: .5rem;
-                font-size: 1.2rem;
+                bottom: 3.5rem;
+                left: 2rem;
+                font-size: 1.5rem;
               }
               @media (max-width: 600px) {
-                bottom: .3rem;
-                font-size: 1rem;
+                left: 1rem;
               }
             }
           }
@@ -92,6 +102,6 @@ export const CarrosselStyle = styled.section`
     }
   }
   @media (max-width: 768px) {
-    height: 35vh;
+    height: 40vh;
   }
 `;

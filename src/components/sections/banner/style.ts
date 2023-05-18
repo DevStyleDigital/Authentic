@@ -23,11 +23,10 @@ export const BannerStyle = styled.div`
     z-index: 7;
     display: flex;
     justify-content: end;
-    align-items: center;
+    align-items: end;
     padding-top: 100px;
     padding-right: 8rem;
     .container {
-      border-radius: 10px;
       width: 30%;
       height: auto;
       min-height: 40%;
