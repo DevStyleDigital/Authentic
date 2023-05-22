@@ -52,7 +52,7 @@ const Carrossel = () => {
                 width={1920}
                 height={720}
               />
-              <h1>Piscinas</h1>
+              <h1>Piscinas e saunas</h1>
             </SwiperSlide>
             <SwiperSlide>
               <Image

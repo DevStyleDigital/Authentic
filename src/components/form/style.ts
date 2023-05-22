@@ -35,6 +35,15 @@ export const FormStyle = styled.form`
       width: 90%;
     }
   }
+
+  span{
+    font-size: .7rem;
+    color: rgba(255,255,255, .6);
+    /* margin-top: -1rerm; */
+    @media (min-width: 768px) {
+      font-size: .7rem;
+    }
+  }
   button {
     width: fit-content;
     padding: 1rem 1.5rem;
