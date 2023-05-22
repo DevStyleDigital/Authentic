@@ -1,14 +1,27 @@
 import styled from 'styled-components';
 
 export const ArrowStyle = styled.button`
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   background: linear-gradient(238.7deg, #f39a55 34.28%, #6e311e 101.29%);
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
   position: fixed;
   top: 300px;
   right: 0;
   z-index: 99;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .2rem;
+  span {
+      text-transform: uppercase;
+      color: white;
+      font-size: 9px;
+      text-align: center;
+      font-weight: bold;
+      line-height: 15px;
+  }
   @media (min-width: 768px) {
     display: none;
   }
