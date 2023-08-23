@@ -14,7 +14,7 @@ const Visite = () => {
           <h1>
             <EnderecoSVG /> Visite Decorado
           </h1>
-          <span>Av. Dr. Eugênio Selarno, 387</span>
+          <span>Av. Dr. Eugênio Salerno, 387</span>
           <span>
             <WhatsappSVG />
             15 98133-7175
