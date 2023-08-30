@@ -17,7 +17,7 @@ const Visite = () => {
           <span>Av. Dr. Eugênio Salerno, 387</span>
           <span>
             <WhatsappSVG />
-            15 98133-7175
+            15 98102-8310
           </span>
         </div>
       </div>
