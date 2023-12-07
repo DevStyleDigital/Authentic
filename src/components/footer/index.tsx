@@ -9,7 +9,7 @@ const Footer = () => {
       <Image src={FooterImage} alt='footer' width={1920} height={400} />
       <div className="content">
         <span>
-          CRECI 28.530 – Empreendimento denominado “Residencial Authentique”, cujo projeto
+          CRECI: 206692-F – Empreendimento denominado “Residencial Authentique”, cujo projeto
           encontra-se aprovado na Prefeitura Municipal de Sorocaba/SP, conforme alvarás de
           licenças de obras números – 576/21. Incorporação registrada sob R-11, na matrícula
           63.147, no 2º Oficial de Registro de Imóveis de Sorocaba / SP, em 30/12/2021.

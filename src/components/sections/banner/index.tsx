@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { BannerStyle } from './style';
-import BannerImg from '../../../assets/img/banner.png';
+import BannerImg from '../../../assets/img/banner.jpg';
 import BannerMobileImg from '../../../assets/img/Banner_Mobile.png';
 import Form from '@components/form';
 
